@@ -1,0 +1,36 @@
+VALUE ERROR:
+a="hello world"
+c=int(a)
+print(a)
+
+
+correct program:
+a="hello world"
+try:
+    c=int(a)
+except ValueError:
+    print('this action is not possible')
+print(a)
+output:
+this action is not possible
+hello world
+
+
+INDEX ERROR
+
+l=[1,2,3]
+try:
+    print(l[3])
+except IndexError:
+    print("LIST is out of bound")
+output:
+LIST is out of bound
+
+
+IMPORT ERROR
+try:
+    from apoo import *
+except ImportError:
+    print('import error')
+output:
+import error

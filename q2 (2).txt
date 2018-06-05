@@ -1,0 +1,10 @@
+The exception generated is IndexError: list index out of range
+
+HANDLED PROGRAM
+
+l=[1,2,3]
+try:
+    print(l[3])
+
+except IndexError:
+    print("index is out of bound")

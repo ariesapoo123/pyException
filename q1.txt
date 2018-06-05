@@ -1,0 +1,13 @@
+HANDLED PROGRAM
+
+a=3
+try:
+    if a<4:
+        a=a/(a-3)
+        print(a)
+except ZeroDivisionError:
+    print("cannot divide by zero")
+
+OUTPUT : cannot divide by zero
+
+error generated is ZeroDivisionError
